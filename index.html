@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chic Styles - Fashion Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Chic Styles Blog</h1>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn" data-tab="news">News</button>
+  <button class="tab-btn" data-tab="trends">Trends</button>
+  <button class="tab-btn" data-tab="gallery">Gallery</button>
+</div>
+
+<div id="news" class="tab-content active">
+  <h2>Latest Fashion Buzz</h2>
+  <p>Fashion week highlights, designer collabs, and more...</p>
+</div>
+<div id="trends" class="tab-content">
+  <h2>What's Hot 🔥</h2>
+  <p>Check out 2025's top trending styles and colors.</p>
+</div>
+<div id="gallery" class="tab-content">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/200x250?text=Look+1" alt="Look 1">
+    <img src="https://via.placeholder.com/200x250?text=Look+2" alt="Look 2">
+    <img src="https://via.placeholder.com/200x250?text=Look+3" alt="Look 3">
+  </div>
+</div>
+
+<button id="styleButton">Click for Style Surprise</button>
+
+<form id="subscribeForm">
+  <h3>Subscribe to Updates</h3>
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="email" id="email" placeholder="Email Address" required>
+  <input type="password" id="password" placeholder="Create Password" required>
+  <div id="feedback" class="feedback"></div>
+  <button type="submit">Subscribe</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
